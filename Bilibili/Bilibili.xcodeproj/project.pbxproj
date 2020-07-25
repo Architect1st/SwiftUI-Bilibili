@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D229E40524CBEADB00DCA09F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E40424CBEADB00DCA09F /* Tests_iOS.swift */; };
+		D229E41024CBEADB00DCA09F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E40F24CBEADB00DCA09F /* Tests_macOS.swift */; };
+		D229E41224CBEADC00DCA09F /* BilibiliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E3E924CBEAD900DCA09F /* BilibiliApp.swift */; };
+		D229E41324CBEADC00DCA09F /* BilibiliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E3E924CBEAD900DCA09F /* BilibiliApp.swift */; };
+		D229E41424CBEADC00DCA09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E3EA24CBEAD900DCA09F /* ContentView.swift */; };
+		D229E41524CBEADC00DCA09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D229E3EA24CBEAD900DCA09F /* ContentView.swift */; };
+		D229E41624CBEADC00DCA09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D229E3EB24CBEADB00DCA09F /* Assets.xcassets */; };
+		D229E41724CBEADC00DCA09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D229E3EB24CBEADB00DCA09F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D229E40124CBEADB00DCA09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D229E3E424CBEAD800DCA09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D229E3EF24CBEADB00DCA09F;
+			remoteInfo = "Bilibili (iOS)";
+		};
+		D229E40C24CBEADB00DCA09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D229E3E424CBEAD800DCA09F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D229E3F724CBEADB00DCA09F;
+			remoteInfo = "Bilibili (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D229E3E924CBEAD900DCA09F /* BilibiliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilibiliApp.swift; sourceTree = "<group>"; };
+		D229E3EA24CBEAD900DCA09F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D229E3EB24CBEADB00DCA09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D229E3F024CBEADB00DCA09F /* Bilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D229E3F324CBEADB00DCA09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D229E3F824CBEADB00DCA09F /* Bilibili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilibili.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D229E3FA24CBEADB00DCA09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D229E3FB24CBEADB00DCA09F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D229E40024CBEADB00DCA09F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D229E40424CBEADB00DCA09F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D229E40624CBEADB00DCA09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D229E40B24CBEADB00DCA09F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D229E40F24CBEADB00DCA09F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D229E41124CBEADC00DCA09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D229E3ED24CBEADB00DCA09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3F524CBEADB00DCA09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3FD24CBEADB00DCA09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E40824CBEADB00DCA09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D229E3E324CBEAD800DCA09F = {
+			isa = PBXGroup;
+			children = (
+				D229E3E824CBEAD900DCA09F /* Shared */,
+				D229E3F224CBEADB00DCA09F /* iOS */,
+				D229E3F924CBEADB00DCA09F /* macOS */,
+				D229E40324CBEADB00DCA09F /* Tests iOS */,
+				D229E40E24CBEADB00DCA09F /* Tests macOS */,
+				D229E3F124CBEADB00DCA09F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D229E3E824CBEAD900DCA09F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D229E3E924CBEAD900DCA09F /* BilibiliApp.swift */,
+				D229E3EA24CBEAD900DCA09F /* ContentView.swift */,
+				D229E3EB24CBEADB00DCA09F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D229E3F124CBEADB00DCA09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D229E3F024CBEADB00DCA09F /* Bilibili.app */,
+				D229E3F824CBEADB00DCA09F /* Bilibili.app */,
+				D229E40024CBEADB00DCA09F /* Tests iOS.xctest */,
+				D229E40B24CBEADB00DCA09F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D229E3F224CBEADB00DCA09F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D229E3F324CBEADB00DCA09F /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D229E3F924CBEADB00DCA09F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D229E3FA24CBEADB00DCA09F /* Info.plist */,
+				D229E3FB24CBEADB00DCA09F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D229E40324CBEADB00DCA09F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D229E40424CBEADB00DCA09F /* Tests_iOS.swift */,
+				D229E40624CBEADB00DCA09F /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D229E40E24CBEADB00DCA09F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D229E40F24CBEADB00DCA09F /* Tests_macOS.swift */,
+				D229E41124CBEADC00DCA09F /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D229E3EF24CBEADB00DCA09F /* Bilibili (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D229E41A24CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Bilibili (iOS)" */;
+			buildPhases = (
+				D229E3EC24CBEADB00DCA09F /* Sources */,
+				D229E3ED24CBEADB00DCA09F /* Frameworks */,
+				D229E3EE24CBEADB00DCA09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bilibili (iOS)";
+			productName = "Bilibili (iOS)";
+			productReference = D229E3F024CBEADB00DCA09F /* Bilibili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D229E3F724CBEADB00DCA09F /* Bilibili (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D229E41D24CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Bilibili (macOS)" */;
+			buildPhases = (
+				D229E3F424CBEADB00DCA09F /* Sources */,
+				D229E3F524CBEADB00DCA09F /* Frameworks */,
+				D229E3F624CBEADB00DCA09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bilibili (macOS)";
+			productName = "Bilibili (macOS)";
+			productReference = D229E3F824CBEADB00DCA09F /* Bilibili.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D229E3FF24CBEADB00DCA09F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D229E42024CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D229E3FC24CBEADB00DCA09F /* Sources */,
+				D229E3FD24CBEADB00DCA09F /* Frameworks */,
+				D229E3FE24CBEADB00DCA09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D229E40224CBEADB00DCA09F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D229E40024CBEADB00DCA09F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D229E40A24CBEADB00DCA09F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D229E42324CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D229E40724CBEADB00DCA09F /* Sources */,
+				D229E40824CBEADB00DCA09F /* Frameworks */,
+				D229E40924CBEADB00DCA09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D229E40D24CBEADB00DCA09F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D229E40B24CBEADB00DCA09F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D229E3E424CBEAD800DCA09F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D229E3EF24CBEADB00DCA09F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D229E3F724CBEADB00DCA09F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D229E3FF24CBEADB00DCA09F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D229E3EF24CBEADB00DCA09F;
+					};
+					D229E40A24CBEADB00DCA09F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D229E3F724CBEADB00DCA09F;
+					};
+				};
+			};
+			buildConfigurationList = D229E3E724CBEAD800DCA09F /* Build configuration list for PBXProject "Bilibili" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D229E3E324CBEAD800DCA09F;
+			productRefGroup = D229E3F124CBEADB00DCA09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D229E3EF24CBEADB00DCA09F /* Bilibili (iOS) */,
+				D229E3F724CBEADB00DCA09F /* Bilibili (macOS) */,
+				D229E3FF24CBEADB00DCA09F /* Tests iOS */,
+				D229E40A24CBEADB00DCA09F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D229E3EE24CBEADB00DCA09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E41624CBEADC00DCA09F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3F624CBEADB00DCA09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E41724CBEADC00DCA09F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3FE24CBEADB00DCA09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E40924CBEADB00DCA09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D229E3EC24CBEADB00DCA09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E41424CBEADC00DCA09F /* ContentView.swift in Sources */,
+				D229E41224CBEADC00DCA09F /* BilibiliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3F424CBEADB00DCA09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E41524CBEADC00DCA09F /* ContentView.swift in Sources */,
+				D229E41324CBEADC00DCA09F /* BilibiliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E3FC24CBEADB00DCA09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E40524CBEADB00DCA09F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D229E40724CBEADB00DCA09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D229E41024CBEADB00DCA09F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D229E40224CBEADB00DCA09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D229E3EF24CBEADB00DCA09F /* Bilibili (iOS) */;
+			targetProxy = D229E40124CBEADB00DCA09F /* PBXContainerItemProxy */;
+		};
+		D229E40D24CBEADB00DCA09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D229E3F724CBEADB00DCA09F /* Bilibili (macOS) */;
+			targetProxy = D229E40C24CBEADB00DCA09F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D229E41824CBEADC00DCA09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D229E41924CBEADC00DCA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D229E41B24CBEADC00DCA09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ml.dylanx.Bilibili;
+				PRODUCT_NAME = Bilibili;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D229E41C24CBEADC00DCA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ml.dylanx.Bilibili;
+				PRODUCT_NAME = Bilibili;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D229E41E24CBEADC00DCA09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = ml.dylanx.Bilibili;
+				PRODUCT_NAME = Bilibili;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D229E41F24CBEADC00DCA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				PRODUCT_BUNDLE_IDENTIFIER = ml.dylanx.Bilibili;
+				PRODUCT_NAME = Bilibili;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D229E42124CBEADC00DCA09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.dylanx.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bilibili (iOS)";
+			};
+			name = Debug;
+		};
+		D229E42224CBEADC00DCA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.dylanx.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bilibili (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D229E42424CBEADC00DCA09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.dylanx.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bilibili (macOS)";
+			};
+			name = Debug;
+		};
+		D229E42524CBEADC00DCA09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 349NCKA7X8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.dylanx.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Bilibili (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D229E3E724CBEAD800DCA09F /* Build configuration list for PBXProject "Bilibili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229E41824CBEADC00DCA09F /* Debug */,
+				D229E41924CBEADC00DCA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D229E41A24CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Bilibili (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229E41B24CBEADC00DCA09F /* Debug */,
+				D229E41C24CBEADC00DCA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D229E41D24CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Bilibili (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229E41E24CBEADC00DCA09F /* Debug */,
+				D229E41F24CBEADC00DCA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D229E42024CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229E42124CBEADC00DCA09F /* Debug */,
+				D229E42224CBEADC00DCA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D229E42324CBEADC00DCA09F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D229E42424CBEADC00DCA09F /* Debug */,
+				D229E42524CBEADC00DCA09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D229E3E424CBEAD800DCA09F /* Project object */;
+}
