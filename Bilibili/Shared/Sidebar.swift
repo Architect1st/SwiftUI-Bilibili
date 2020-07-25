@@ -25,26 +25,27 @@ struct Sidebar: View {
             SidebarAvatar()
             Group{
                 NavigationLink(destination: VideoView()) {
-                    Label("Home", systemImage: "house")
+                    Label("推荐", systemImage: "house")
                 }
             }
             Divider()
             Group{
-                Label("Live", systemImage: "video")
-                Label("Trending", systemImage: "flame")
-                Label("Anime", systemImage: "tv")
-                Label("Activity", systemImage: "plus")
-                Label("Category", systemImage: "square.grid.2x2")
+                Label("直播", systemImage: "video")
+                Label("热门", systemImage: "flame")
+                Label("追番", systemImage: "tv")
+                Label("动态", systemImage: "plus")
+                Label("分区", systemImage: "square.grid.2x2")
             }
             Divider()
             Group{
-                Label("Download", systemImage: "square.and.arrow.down")
-                Label("Hostory", systemImage: "clock")
-                Label("Message", systemImage: "message")
+                Label("我的缓存", systemImage: "square.and.arrow.down")
+                Label("观看历史", systemImage: "clock")
+                Label("我的消息", systemImage: "message")
             }
             Divider()
             Group{
-                Label("Save", systemImage: "star")
+                Label("我的收藏", systemImage: "star")
+                Label("稍后观看", systemImage: "clock.arrow.circlepath")
             }
         }
         .listStyle(SidebarListStyle())

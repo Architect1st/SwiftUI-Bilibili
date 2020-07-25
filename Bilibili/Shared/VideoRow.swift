@@ -24,6 +24,11 @@ struct VideoRow: View {
                 Spacer()
                 HStack(alignment: .bottom){
                     HStack {
+                        Image(systemName: "person.crop.circle")
+                        Text("BarryShawn")
+                    }
+                    Spacer()
+                    HStack {
                         Image(systemName: "eye")
                         Text("3702")
                     }
