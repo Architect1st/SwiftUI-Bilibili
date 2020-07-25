@@ -25,7 +25,7 @@ struct SidebarAvatar: View {
 //                    Text("HISHE / Toon Sandwich / TBBT  / Mayim Bialik")
 //                        .font(.footnote)
 //                        .foregroundColor(.secondary)
-                    Text("Lv.5")
+                    Text("Lv.6")
                         .font(.footnote)
                         .fontWeight(.bold)
                         .foregroundColor(.blue)
